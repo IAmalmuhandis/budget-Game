@@ -1,0 +1,110 @@
+/* Add your styles here */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+  }
+  
+  .top {
+    background-color: #26a69a;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .budget {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+  
+  .budget__title {
+    margin-bottom: 10px;
+  }
+  
+  .budget__value {
+    font-size: 2.4rem;
+  }
+  
+  .budget__limit {
+    font-size: 2.4rem;
+    color: #e57373;
+  }
+  
+  .budget__value,
+  .budget__limit {
+    margin-top: 5px;
+    display: block;
+  }
+  
+  .budget__value span,
+  .budget__limit span {
+    color: #fff;
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  
+  .bottom {
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-budget {
+    margin-bottom: 20px;
+  }
+  
+  .add-budget__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .add-budget__category,
+  .add-budget__amount {
+    width: 40%;
+    padding: 8px;
+    font-size: 1.4rem;
+  }
+  
+  .add-budget__btn {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .add-budget__btn i {
+    margin-right: 5px;
+  }
+  
+  .container {
+    overflow: hidden;
+  }
+  
+  .budget-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .budget-list__item {
+    padding: 15px;
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 3px;
+  }
+  
+  .budget-list__delete i {
+    cursor: pointer;
+    color: #e57373;
+  }
+  
